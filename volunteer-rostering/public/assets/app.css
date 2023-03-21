@@ -1,0 +1,184 @@
+.page-content {
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.calendar {
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.headings {
+  text-align: center;
+}
+
+.bordered-box {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin: 1rem 0.25rem 1rem 0.25rem;
+}
+
+.bordered-box-title {
+  padding: 0.5rem 1rem 0rem 1rem;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #f7f7f7;
+}
+
+.bordered-box-content {
+  padding: 0.5rem;
+}
+
+.role-area {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 115%;
+}
+
+.red-notice {
+  border: 1px solid red;
+  border-radius: 5px;
+  background: #ffcccc;
+  padding: 0.4rem;
+}
+.red-notice :is(p, h1, h2, h3, h4, h5, h6) {
+  color: red;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 115%;
+}
+
+.unfilled-roles {
+  border: 1px solid red;
+  border-radius: 5px;
+  background: #ffcccc;
+}
+
+.unfilled-roles-notice {
+  color: red;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.bold-nice-text {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 115%;
+}
+
+.card {
+  background-color: #f7f7f7;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin: 0.5rem 0.25rem 0.5rem 0.25rem;
+  padding: 0.5rem;
+}
+
+.card h3 {
+  display: inline-block;
+}
+
+.card .alert.button {
+  display: inline-block;
+  float: right;
+}
+
+.button {
+  width: fit-content;
+}
+
+.alert.button {
+  width: fit-content;
+}
+
+td .alert.button {
+  margin: auto;
+}
+
+.actions-list {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.actions-list * {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.action-list * * {
+  padding: 0;
+  margin: 0;
+}
+
+.form {
+  background-color: #f7f7f7;
+  border: 1px solid #e6e6e6;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: auto;
+}
+
+.form .field {
+  border-radius: 5px;
+}
+
+.form.field-title {
+}
+
+.form-err {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.field-err {
+  border: 1px solid red !important;
+  background-color: #ffe6e6;
+}
+
+.field-title {
+  font-weight: bold;
+}
+
+.messages {
+  margin: auto;
+  padding-top: 0.5rem;
+}
+
+.message {
+  border: 1px solid #368ac1;
+  border-radius: 5px;
+  background-color: #60a4d2;
+  color: white;
+}
+
+#close-message {
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.clickable {
+  cursor: pointer !important;
+}
+
+input[type=color] {
+  width: 5rem;
+}
+
+.name-bar {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.name {
+  font-size:125%;
+  text-align: center;
+  margin: auto;
+}
+
+td {
+  text-align: center;
+}
